@@ -1,0 +1,26 @@
+<Page
+    navigatingTo="onNavigatingTo"  
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <ActionBar class="action-bar">
+        <Label text="Covid19Tracker"></Label>
+    </ActionBar>
+
+    <StackLayout orientation="vertical" id="main-container">
+                <Label id="disclaimer-text" text="{{ L('disclaimer-text') }}" textWrap = "true"></Label>
+
+        <Label id="positive-percentage" text="0%"></Label>
+        <Label id="positive-text" text="{{ L('positive-text') }}"></Label>
+        <Button id="update-button" text="{{ L('update-button') }}"></Button>
+
+        <StackLayout class="card" orientation="vertical">
+            <Label class="card-title" text="{{ L('card-title-warning') }}"></Label>
+            <Label class="card-description" text="{{ L('card-description-profile') }}" textWrap="true"></Label>
+            <StackLayout orientation="horizontal">
+                <Label id="fatality-percentage" text="10%"></Label>
+                <Label id="user-data-text" text="Sesso: Maschile"></Label>
+            </StackLayout>
+            <Button class="card-cta" text="{{ L('card-cta-update') }}"></Button>
+        </StackLayout>
+    </StackLayout>
+</Page>

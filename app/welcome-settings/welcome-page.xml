@@ -1,0 +1,61 @@
+<Page
+    navigatingTo="onNavigatingTo"  
+    loaded="onPageLoaded"
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <ActionBar class="action-bar">
+        <Label text="COVID-19 Tracker"></Label>
+    </ActionBar>
+
+    <AbsoluteLayout>
+
+    <StackLayout orientation="vertical" id="main-container" class="welcome-container">
+        <Label class="welcome-title" text="Benvenuto"></Label>
+        <Label class="welcome-text" id="welcome-description" text="Questa app ti permetterà di vedere la tua probabilità di positività alla malattia COVID-19, in base al tuo profilo medico e ai tuoi spostamenti" textWrap = "true"></Label>
+        <Label class="welcome-text" id="welcome-description1" text="Questo aiuterà te, e le persone che ti sono vicino, a capire come comportarti durante questa emergenza" textWrap = "true"></Label>
+        <Label class="welcome-text" id="welcome-description2" text="Ricorda sempre che quest'app non sostituisce in alcun modo un parere medico e tutti i suoi dati sono puramente indicativi" textWrap = "true"></Label>
+        <Label class="welcome-text" id="welcome-description3" text="Se ti senti male, va da un medico" textWrap = "true"></Label>
+        <Label class="welcome-text" id="welcome-description4" text="E se stai bene, limita i tuoi movimenti il più possibile." textWrap = "true"></Label>
+        <Button class="welcome-button" id="button1" text="Ho capito"></Button>
+    </StackLayout>
+
+    <ScrollView id="second-container" class="welcome-container">
+    <StackLayout orientation="vertical"  >
+        <Label class="welcome-title" text="Il mio profilo"></Label>
+        <Label class="welcome-text" id="welcome-description" text="Per poter fornirti una stima efficace, l'app deve sapere più informazioni mediche su di te." textWrap = "true"></Label>
+        <Label class="welcome-text" id="welcome-description" text="Queste informazioni saranno salvate su questo telefono e non saranno mai condivise con nessuno" textWrap = "true"></Label>
+        <DockLayout orientation="horizontal" class="form-row">
+            <Label text="Anno della tua nascita" dock="left" id="year-field" class="welcome-text" ></Label>
+            <TextField class="welcome-input" id="year-input" hint="Inserisci anno" keyboardType="phone"></TextField>
+            <!--ListPicker items="{{ [1,2 ]}}" class="picker" textField="year-field"/-->
+        </DockLayout>
+        <Label class="welcome-text" id="welcome-other-synthoms" text="Hai avuto qualcuno di questi sintomi ultimamente?" textWrap = "true"></Label>
+            <GridLayout id="syntoms-grid" columns="*,150, 150,*" rows="150, 150, 150,150, 150, 150,150"  >
+            <!--
+                <Button class="button-disease" text="Febbre" row="0" col="1" ></Button>
+                <Button text="Tosse, gola secca" row="0" col="2"></Button>
+                <Button text="Fatica" row="1" col="1" ></Button>
+                <Button text="Congestione nasale" row="1" col="2" ></Button>
+                <Button text="Nausea" row="2" col="1" ></Button>
+                <Button text="Confusione" row="2" col="2"></Button>
+            -->
+            </GridLayout>
+          <Button class="welcome-button" id="button2" text="Avanti"></Button>
+    </StackLayout>
+    </ScrollView>
+
+
+    <StackLayout orientation="vertical" id="third-container" class="welcome-container">
+        <Label class="welcome-title" text="La tua posizione"></Label>
+        <Label class="welcome-text" id="welcome-description" text="L'applicazione utilizza la tua posizione per monitorare i tuoi spostamenti e capire se vieni a contatto con persone contagiate" textWrap = "true"></Label>
+        <Label class="welcome-text" id="welcome-description" text="Per permettere questa operazione i tuoi spostamenti vengono anonimizzati e confrontati con quelli di altri utenti" textWrap = "true"></Label>
+        <Label class="welcome-text" id="welcome-description" text="Per far questo, però, devi autorizzare l'applicazione a utilizzare la tua posizione, sempre, anche quando è chiusa" textWrap = "true"></Label>
+        <Label class="welcome-text" id="welcome-description" text="Se per te va bene tutto ciò, seleziona Clicca sul pulsante e clicca su 'SEMPRE'" textWrap = "true"></Label>
+        
+        <Button class="welcome-button" id="button3" text="Attiva Localizzazione"></Button>
+    </StackLayout>
+
+    </AbsoluteLayout>
+
+
+</Page>

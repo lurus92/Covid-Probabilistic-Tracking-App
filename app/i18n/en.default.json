@@ -1,0 +1,9 @@
+{
+    "app.name": "Covid-19 Tracker",
+    "disclaimer-text": "All data are purely indicative and based on statistics. If you feel unwell, seek medical advice immediately.",
+    "positive-text": "Probability to be positive",
+    "update-button" : "INSERT NEW SYMPTOMS",
+    "card-title-warning" : "WARNING",
+    "card-description-profile" : "Considering your profile, the fatality rate of the desease would be:",
+    "card-cta-update" : "Update Profile"
+}

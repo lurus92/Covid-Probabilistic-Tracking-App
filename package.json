@@ -1,0 +1,30 @@
+{
+  "nativescript": {
+    "id": "org.nativescript.Covid19Tracker",
+    "tns-android": {
+      "version": "6.5.0"
+    },
+    "tns-ios": {
+      "version": "6.5.0"
+    }
+  },
+  "description": "NativeScript Application",
+  "license": "SEE LICENSE IN <your-license-filename>",
+  "repository": "<fill-your-repository-here>",
+  "dependencies": {
+    "@nativescript/theme": "~2.3.3",
+    "nativescript-dom": "^2.0.0",
+    "nativescript-drop-down": "^5.0.4",
+    "nativescript-geolocation": "^5.1.0",
+    "nativescript-localize": "^4.2.1",
+    "node": "^13.12.0",
+    "norm-dist": "^2.0.2",
+    "normal-distribution": "0.0.9",
+    "tns-core-modules": "~6.5.0"
+  },
+  "devDependencies": {
+    "nativescript-dev-webpack": "~1.5.1"
+  },
+  "gitHead": "2250137db8c1e0bd0eb543e8e4563cb71480c00d",
+  "readme": "NativeScript Application"
+}

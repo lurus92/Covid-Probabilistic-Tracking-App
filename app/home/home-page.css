@@ -1,0 +1,66 @@
+
+#main-container{
+    text-align: center;
+}
+
+.action-bar{
+    background-color: white;
+}
+
+.action-bar label{
+    color: #707070;
+}
+
+#disclaimer-text{
+    font-size: 12;
+    padding: 10;
+}
+
+#update-button{
+    margin-top: 20;
+    background-color: #FFEB3B;
+    color: #707070;
+    width: 200;
+    border-radius: 30;
+}
+
+.card{
+    margin: 10;
+    border-radius: 10;
+    background-color:#F44336;
+    color: white;
+    padding: 15;
+    text-align: left;
+}
+
+.card-title{
+    font-size: 20;
+}
+
+.card-description{
+    font-size: 14;
+}
+
+.card-cta{
+    width: 150;
+    text-align: center;
+}
+
+#positive-percentage{
+    margin: 10;
+    margin-top: 80;
+    font-size: 80;
+    text-align: center;
+}
+
+#positive-text{
+    margin-top: 0;
+}
+
+#fatality-percentage{
+    font-size: 50;
+    margin-left: 30;
+    margin-right: 10;
+    margin-top: 10;
+    margin-bottom: 10;
+}

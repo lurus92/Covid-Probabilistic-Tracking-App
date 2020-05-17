@@ -1,0 +1,9 @@
+{
+    "app.name": "Covid-19 Tracker",
+    "disclaimer-text": "Tutti i dati sono puramente indicativi e basati su statistiche.  Se ti senti male, rivolgiti immediatamente a un medico.",
+    "positive-text": "Probabilità di essere positivo",
+    "update-button" : "REGISTRA NUOVI SINTOMI",
+    "card-title-warning" : "ATTENZIONE",
+    "card-description-profile" : "In base al tuo profilo, la fatalità della malattia sarebbe del:",
+    "card-cta-update" : "Aggiorna Profile"
+}
